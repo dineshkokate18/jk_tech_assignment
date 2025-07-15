@@ -9,7 +9,7 @@ export class Document {
   filename: string;
 
   @Column()
-  originalName: string;
+  originalName?: string;
 
   @Column()
   mimetype: string;
